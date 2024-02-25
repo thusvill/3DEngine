@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/bios/CLionProjects/2DEngine/Core/MainApp.cpp" "CMakeFiles/VectorVertex.dir/Core/MainApp.cpp.o" "gcc" "CMakeFiles/VectorVertex.dir/Core/MainApp.cpp.o.d"
   "/home/bios/CLionProjects/2DEngine/Render/lve_buffer.cpp" "CMakeFiles/VectorVertex.dir/Render/lve_buffer.cpp.o" "gcc" "CMakeFiles/VectorVertex.dir/Render/lve_buffer.cpp.o.d"
   "/home/bios/CLionProjects/2DEngine/Render/lve_camera.cpp" "CMakeFiles/VectorVertex.dir/Render/lve_camera.cpp.o" "gcc" "CMakeFiles/VectorVertex.dir/Render/lve_camera.cpp.o.d"
+  "/home/bios/CLionProjects/2DEngine/Render/lve_descriptors.cpp" "CMakeFiles/VectorVertex.dir/Render/lve_descriptors.cpp.o" "gcc" "CMakeFiles/VectorVertex.dir/Render/lve_descriptors.cpp.o.d"
   "/home/bios/CLionProjects/2DEngine/Render/lve_device.cpp" "CMakeFiles/VectorVertex.dir/Render/lve_device.cpp.o" "gcc" "CMakeFiles/VectorVertex.dir/Render/lve_device.cpp.o.d"
   "/home/bios/CLionProjects/2DEngine/Render/lve_game_object.cpp" "CMakeFiles/VectorVertex.dir/Render/lve_game_object.cpp.o" "gcc" "CMakeFiles/VectorVertex.dir/Render/lve_game_object.cpp.o.d"
   "/home/bios/CLionProjects/2DEngine/Render/lve_model.cpp" "CMakeFiles/VectorVertex.dir/Render/lve_model.cpp.o" "gcc" "CMakeFiles/VectorVertex.dir/Render/lve_model.cpp.o.d"

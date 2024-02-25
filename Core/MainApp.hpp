@@ -6,6 +6,7 @@
 #include "../Render/lve_buffer.hpp"
 #include "../Render/lve_game_object.hpp"
 #include "../Render/lve_camera.hpp"
+#include "../Render/lve_descriptors.hpp"
 #include "Keyboard_inputs.hpp"
 
 #define GLM_FORCE_RADIANS
@@ -22,7 +23,9 @@ namespace lve
     struct GlobalUBO
     {
         glm::mat4 projection_view{1.f};
-        glm::vec3 light_direction = glm::normalize(glm::vec3{1.f, -3.f, -1.f});
+        glm::vec4 ambient_color{1.f, 1.f, 1.f, .02f};
+        glm::vec3 light_position{-1.f};
+        alignas(16) glm::vec4 light_color{1.f};
     };
 
     class VectorVetrex
@@ -45,6 +48,7 @@ namespace lve
         LveDevice lveDevice{lveWindow};
         LveRenderer lveRenderer{lveWindow, lveDevice};
 
-        std::vector<LveGameObject> gameObjects;
+        std::unique_ptr<LveDescriptorPool> global_pool{};
+        LveGameObject::Map gameObjects;
     };
 } // namespace lve

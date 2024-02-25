@@ -225,6 +225,30 @@ Render/lve_camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VectorVertex.dir/build.make CMakeFiles/VectorVertex.dir/Render/lve_camera.cpp.s
 .PHONY : Render/lve_camera.cpp.s
 
+Render/lve_descriptors.o: Render/lve_descriptors.cpp.o
+.PHONY : Render/lve_descriptors.o
+
+# target to build an object file
+Render/lve_descriptors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VectorVertex.dir/build.make CMakeFiles/VectorVertex.dir/Render/lve_descriptors.cpp.o
+.PHONY : Render/lve_descriptors.cpp.o
+
+Render/lve_descriptors.i: Render/lve_descriptors.cpp.i
+.PHONY : Render/lve_descriptors.i
+
+# target to preprocess a source file
+Render/lve_descriptors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VectorVertex.dir/build.make CMakeFiles/VectorVertex.dir/Render/lve_descriptors.cpp.i
+.PHONY : Render/lve_descriptors.cpp.i
+
+Render/lve_descriptors.s: Render/lve_descriptors.cpp.s
+.PHONY : Render/lve_descriptors.s
+
+# target to generate assembly for a file
+Render/lve_descriptors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VectorVertex.dir/build.make CMakeFiles/VectorVertex.dir/Render/lve_descriptors.cpp.s
+.PHONY : Render/lve_descriptors.cpp.s
+
 Render/lve_device.o: Render/lve_device.cpp.o
 .PHONY : Render/lve_device.o
 
@@ -462,6 +486,9 @@ help:
 	@echo "... Render/lve_camera.o"
 	@echo "... Render/lve_camera.i"
 	@echo "... Render/lve_camera.s"
+	@echo "... Render/lve_descriptors.o"
+	@echo "... Render/lve_descriptors.i"
+	@echo "... Render/lve_descriptors.s"
 	@echo "... Render/lve_device.o"
 	@echo "... Render/lve_device.i"
 	@echo "... Render/lve_device.s"

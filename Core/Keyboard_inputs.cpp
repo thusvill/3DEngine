@@ -4,7 +4,13 @@ namespace lve
 {
     void KeyboardInputs::moveInPlaneXZ(GLFWwindow *window, float dt, LveGameObject &gameObject)
     {
-        glm::vec3 rotate{0};
+        moveSpeed = originalSpeed;
+
+        if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS || glfwGetKey(window, GLFW_KEY_RIGHT_SHIFT) == GLFW_PRESS){
+            moveSpeed = originalSpeed * speed_multiplier;
+        }
+
+            glm::vec3 rotate{0};
         if (glfwGetKey(window, keys.lookRight) == GLFW_PRESS)
             rotate.y += 1.f;
         if (glfwGetKey(window, keys.lookLeft) == GLFW_PRESS)

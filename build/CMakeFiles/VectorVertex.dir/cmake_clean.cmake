@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/VectorVertex.dir/Render/lve_buffer.cpp.o.d"
   "CMakeFiles/VectorVertex.dir/Render/lve_camera.cpp.o"
   "CMakeFiles/VectorVertex.dir/Render/lve_camera.cpp.o.d"
+  "CMakeFiles/VectorVertex.dir/Render/lve_descriptors.cpp.o"
+  "CMakeFiles/VectorVertex.dir/Render/lve_descriptors.cpp.o.d"
   "CMakeFiles/VectorVertex.dir/Render/lve_device.cpp.o"
   "CMakeFiles/VectorVertex.dir/Render/lve_device.cpp.o.d"
   "CMakeFiles/VectorVertex.dir/Render/lve_game_object.cpp.o"

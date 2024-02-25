@@ -62,13 +62,14 @@
 				7,
 				9,
 				11,
-				14,
+				13,
 				16,
 				18,
 				20,
 				22,
 				24,
-				26
+				26,
+				28
 			]
 		}
 	],
@@ -113,13 +114,14 @@
 				7,
 				9,
 				11,
-				14,
+				13,
 				16,
 				18,
 				20,
 				22,
 				24,
-				26
+				26,
+				28
 			]
 		},
 		{
@@ -133,14 +135,15 @@
 				8,
 				10,
 				12,
-				13,
+				14,
 				15,
 				17,
 				19,
 				21,
 				23,
 				25,
-				27
+				27,
+				29
 			]
 		}
 	],
@@ -204,6 +207,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "Render/lve_camera.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Render/lve_descriptors.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Render/lve_descriptors.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{

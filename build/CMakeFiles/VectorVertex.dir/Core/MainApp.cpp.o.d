@@ -174,6 +174,12 @@ CMakeFiles/VectorVertex.dir/Core/MainApp.cpp.o: \
  /usr/include/assert.h \
  /home/bios/CLionProjects/2DEngine/Core/../Render/lve_buffer.hpp \
  /home/bios/CLionProjects/2DEngine/Core/../Render/lve_game_object.hpp \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h \
  /home/bios/CLionProjects/2DEngine/Core/../Render/lve_model.hpp \
  /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
  /usr/include/c++/11/cmath /usr/include/math.h \
@@ -334,6 +340,7 @@ CMakeFiles/VectorVertex.dir/Core/MainApp.cpp.o: \
  /usr/include/glm/ext/matrix_transform.inl \
  /usr/include/glm/gtc/matrix_transform.inl \
  /home/bios/CLionProjects/2DEngine/Core/../Render/lve_camera.hpp \
+ /home/bios/CLionProjects/2DEngine/Core/../Render/lve_descriptors.hpp \
  /home/bios/CLionProjects/2DEngine/Core/Keyboard_inputs.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
