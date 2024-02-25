@@ -1,4 +1,4 @@
-#include "src/Core/MainApp.hpp"
+#include "Core/MainApp.hpp"
 #include <cstdlib>
 #include <iostream>
 #include <stdexcept>

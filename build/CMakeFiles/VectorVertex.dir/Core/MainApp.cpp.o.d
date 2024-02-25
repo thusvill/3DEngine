@@ -1,5 +1,6 @@
-CMakeFiles/VectorVertex.dir/main.cpp.o: \
- /home/bios/CLionProjects/2DEngine/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/VectorVertex.dir/Core/MainApp.cpp.o: \
+ /home/bios/CLionProjects/2DEngine/Core/MainApp.cpp \
+ /usr/include/stdc-predef.h \
  /home/bios/CLionProjects/2DEngine/Core/MainApp.hpp \
  /home/bios/CLionProjects/2DEngine/Core/../Render/lve_window.hpp \
  /usr/include/GLFW/glfw3.h \
@@ -318,22 +319,10 @@ CMakeFiles/VectorVertex.dir/main.cpp.o: \
  /usr/include/glm/packing.hpp /usr/include/glm/detail/func_packing.inl \
  /usr/include/glm/detail/type_half.hpp \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
- /usr/include/glm/detail/func_integer.inl /usr/include/c++/11/iostream \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/bits/locale_classes.h \
- /usr/include/c++/11/bits/locale_classes.tcc \
- /usr/include/c++/11/system_error \
- /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf \
- /usr/include/c++/11/bits/streambuf.tcc \
- /usr/include/c++/11/bits/basic_ios.h \
- /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
- /usr/include/c++/11/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
- /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc
+ /usr/include/glm/detail/func_integer.inl \
+ /home/bios/CLionProjects/2DEngine/Core/../Render/lve_render_system.hpp \
+ /home/bios/CLionProjects/2DEngine/Core/../Render/../Render/lve_pipeline.hpp \
+ /usr/include/glm/gtc/constants.hpp \
+ /usr/include/glm/ext/scalar_constants.hpp \
+ /usr/include/glm/ext/scalar_constants.inl \
+ /usr/include/glm/gtc/constants.inl /usr/include/c++/11/stdexcept
