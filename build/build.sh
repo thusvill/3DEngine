@@ -1,0 +1,1 @@
+./shader_compile.sh && cmake .. && make && ./VectorVertex 
